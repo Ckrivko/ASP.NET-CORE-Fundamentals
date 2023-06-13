@@ -1,0 +1,17 @@
+﻿@using MVC_Intro.Models.Products
+@model ProductViewModel
+@{
+    ViewData["Title"] = "Product";
+}
+
+<div class="card" style="width: 18rem;">
+
+    <div class="card-header">@ViewData["Title"] </div>
+    <div class="card-body">
+        <h5 class="card-title">Product name: @Model.Name</h5>    
+         <h5 class="card-text">Product price: @Model.Price lv</h5>  
+
+    </div>
+            
+
+</div>
